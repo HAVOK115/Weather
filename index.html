@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="poppins-regular">
+    <div class="weather_card">
+        <div class="searchbar_wrap">
+            <input type="text" placeholder="City, Country, Abbreviation...">
+            <span class="material-symbols-outlined search_icon">
+                search
+                </span>
+        </div>
+        <h1 class="city"></h1>
+        <h3 class="country"></h3>
+        <img src="" class="weather_icon">
+        <h1 class="weather_temp"></h1>
+        <div class="characteristics_wrap">
+            <div class="characteristic wind_kph">
+                <span class="material-symbols-outlined characteristic_icon">
+                    airwave
+                    </span>
+                <h2 class="characteristic_number"></h2>
+            </div>
+            <div class="characteristic precip_mm">
+                <span class="material-symbols-outlined characteristic_icon">
+                    water_drop
+                    </span>
+                <h2 class="characteristic_number"></h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
